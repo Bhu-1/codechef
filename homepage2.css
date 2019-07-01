@@ -15,6 +15,64 @@
 }
 
 
+.heading-mob{
+	width: 360px;
+	margin: auto;
+	color: #34404b;
+	font-family: Ubuntu;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.4px;
+}
+.email-mob{
+	padding-left: 35px;
+	padding-top: 20px;
+}
+.mail-mob{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.tel{
+	padding-left: 15px;
+	padding-top: 20px;
+}
+@media screen and (min-width: 600px){
+	.info-mob{
+		display: none;
+	}
+	.new-mob{
+		display: none;
+	}
+}
+@media screen and (max-width: 320px){
+	.log-mob{
+		border-bottom: 1px solid #e6e8eb;
+	}
+}
+@media screen and (min-width: 321px){
+	.new-mob{
+		border-bottom: 1px solid #e6e8eb;
+	}
+}
+
+.log-mob{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.log-in-mob{
+    padding-left: 190px;
+    padding-top: 7px;
+}
+.user-mob{
+    border: 1px solid #ff5912;
+    border-radius: 2px;
+    margin-left: 23px;
+    padding-bottom: 4px;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .header{
 	width: 360px;
 	margin : auto;
@@ -286,7 +344,7 @@
 }
 .col-cost{
 	margin-top: 35px;
-	margin-left: 80px;
+	margin-left: 50px;
 	width: 190px;
 	height: 40px;
 	color: #2f2f2f;
@@ -318,7 +376,6 @@
     margin-left: 30px;
     width: 285px;
     /* height: 244px; */
-    background-color: #fce689;
     margin-top: 20px;
     padding-bottom: 1px;
     padding-top: 1px;
@@ -873,7 +930,6 @@
 	}
 	.fee-wid {
 	    width: 50%;
-	    background-color: #fce689;
 	}
 	.fee-web {
 		padding-top: 20px;
@@ -1025,14 +1081,13 @@
 	    text-align: center;
 	    width: 960px;
 	    margin: auto;
-	    font-size: 20px;
 	}
 	.fb-web {
-	    padding-left: 44%;
+	    padding-left: 43%;
 	}
 	.fb-icon {
-		padding-top: 20px;
-	    padding-right: 10px;
+		padding-top: 15px;
+	    padding-right: 15px;
 	}
 
 	.footer-web {
@@ -1054,7 +1109,7 @@
 	    padding-right: 80px;
 	}
 	.dot-web {
-	    height: 7px;
+	    height: 5px;
 	    position: relative;
 	    bottom: 8px;
 	    left: 23px;
@@ -1063,10 +1118,10 @@
 	    padding-right: 40px;
 	}
 	.img-line {
-	    height: 4px;
+	    height: 2px;
 	    position: relative;
 	    /* top: 10px; */
-	    bottom: 13px;
+	    bottom: 8px;
 	}
 	.chef-web {
 	    padding-right: 61px;
@@ -1076,7 +1131,7 @@
 	    padding-right: 14px;
 	}
 	.ccd-web{
-		height: 14px;
+		height: 11px;
 	}
 }
 
@@ -1118,4 +1173,25 @@
 
 .dsa-info-mob{
 	    background-color: #f4f6f8;
+}
+
+.img-dots-nk{
+	position: relative;
+	bottom: 10px;
+}
+
+.path-mob{
+    position: relative;
+    bottom: 142px;
+    right: 50px;
+    z-index: -1;
+}
+.path007{
+	height: 0px;
+}
+.path-web{
+    position: relative;
+    bottom: 166px;
+    left: 328px;
+    z-index: -1;
 }
