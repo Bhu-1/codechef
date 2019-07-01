@@ -1,0 +1,1121 @@
+.row::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.row{
+	width: 100%;
+}
+.col{
+	float: left;
+	box-sizing: border-box;
+}
+.container,h1,p,hr,h3,h4,h2,body{
+	margin: 0px;
+}
+
+
+.header{
+	width: 360px;
+	margin : auto;
+	padding-top: 20px;
+}
+.img{
+    text-align: center;
+    width: 30px;
+    /* height: 34px; */
+    border: 1px solid lightgrey;
+    border-radius: 1px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.chef{
+	width: 20px;
+}
+.img-certification{
+	height: 15px;
+}
+.logo{
+	width: 255px;
+}
+.codechef-logo{
+	width: 255px;
+	height: 20px;
+}
+.dsa{
+	color: #3b3a3a;
+	width: 255px;
+	height: 20px;
+	position: relative;
+	bottom: 5px;
+	font-family: ubuntu;
+}
+.dots{
+	padding-left: 227px;
+	position: relative;
+	bottom: 13px;
+}
+.img-dot{
+	height: 5px;
+}
+
+.navbar{
+	padding-top: 30px;
+	font-family: ubuntu;
+	width: 360px;
+	margin: auto;
+}
+.active{
+	margin-left: 30px;
+	color: #ff5912;
+}
+.about{
+	margin-left: 25px;
+}
+.img-line{
+	position: relative;
+    width: 18px;
+    bottom: 10px;
+}
+
+.india-mob{
+	background-color: #f7f7f7;
+}
+.bor{
+	background-color: #f7f7f7;
+}
+.india{
+
+	margin-left: 30px;
+	width: 290px;
+	height: 123px;
+	color: #3b3a3a;
+	font-family: Ubuntu;
+	font-size: 31px;
+	font-weight: 500;
+	line-height: 43px;
+}
+.certify{
+    padding-top: 45px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+	width: 258px;
+	height: 175px;
+	color: #2f2f2f;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.54px;
+	line-height: 36px;
+}
+.button-enrol{
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 40px;
+	width: 218px;
+	height: 44px;
+	background-color: #fc4111;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 48px;
+}
+.chef-read{
+    position: relative;
+    left: 275px;
+}
+.chef-bench{
+    position: relative;
+    left: 161px
+}
+
+.exam-info-mob{
+	background-color: #2f2f2f;
+}
+.exam-info{
+	padding-top: 30px;
+	background-color: #2f2f2f;
+	margin: auto;
+	width: 360px;
+}
+.exam{
+	margin-right: 25px;
+	margin-top: 3px;
+	margin-left: 30px;
+	width: 165px;
+	height: 16px;
+	color: #f0f0f0;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 400;
+}
+.date{
+	color: #f0f0f0;
+	width: 120px;
+	height: 21px;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: 400;
+}
+.reg{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+
+.dsa-info-web{
+	background-color: #f4f6f8; 
+}
+.dsa-info{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 360px;
+	margin: auto;
+	background-color: #f4f6f8;
+}
+.dsa-cert{
+	margin-left: 30px;
+	width: 260px;
+	height: 44px;
+	color: #3b3a3a;
+	font-family: Ubuntu;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: -1.37px;
+	line-height: 43px;
+}
+.this{
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 264px;
+	color: #2f2f2f;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.54px;
+	line-height: 31px;
+}
+
+
+.level-info-mob{
+	margin-top: 30px;
+	margin-bottom: 45px;
+}
+.level-info{
+	width: 360px;
+	margin: auto;
+}
+.level{
+	margin-left: 30px;
+	width: 95px;
+	height: 44px;
+	color: #3b3a3a;
+	font-family: Ubuntu;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: -1.37px;
+	line-height: 43px;
+}
+.nav-found{
+	box-sizing: border-box;
+	padding-top: 15px;
+	padding-left: 30px;
+}
+.found{
+	margin-right: 35px;
+	box-sizing: border-box;
+	width: 93px;
+	height: 36px;
+	color: #3b3a3a;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.48px;
+	line-height: 36px;
+}
+.advance{
+	box-sizing: border-box;
+	width: 77px;
+	height: 36px;
+	color: #ff5912;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.48px;
+	line-height: 36px;
+}
+.expert{
+	margin-left: 30px;
+}
+.img-line-found{
+    position: relative;
+    bottom: 20px;
+}
+.col-person{
+	width: 285px;
+}
+.col-free{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+	width: 294px;
+	height: 37px;
+	color: #696969;
+	font-family: Ubuntu;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.66px;
+	line-height: 36px;
+}
+.col-get{
+	margin-left: 30px;
+	width: 305px;
+	height: auto;
+	color: #2f2f2f;
+	font-family: Ubuntu;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+	line-height: 30px;
+}
+.col-sy{
+	color:  #ff5912;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+.col-cost{
+	margin-top: 35px;
+	margin-left: 80px;
+	width: 190px;
+	height: 40px;
+	color: #2f2f2f;
+	font-family: Ubuntu;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 0.66px;
+	line-height: 36px;
+}
+.line-through{
+    position: relative;
+    bottom: 36px;
+}
+.col-cost-bold{
+	margin-top: 0px;
+	font-weight: 700;
+}
+.col-cost-dis{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.col-cost-avail{
+	margin-top: 25px;
+	margin-bottom: 30px;
+	height: auto;
+}
+.yellow{
+	box-sizing: border-box;
+    margin-left: 30px;
+    width: 285px;
+    /* height: 244px; */
+    background-color: #fce689;
+    margin-top: 20px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.col-test-mob{
+	background-color: #f4f6f8;
+}
+.col-testimonial{
+	background-color: #f4f6f8;
+	width: 360px;
+	margin: auto;
+}
+.col-test-width{
+	padding-top: 40px;
+	width: 190px;
+}
+.loreum{
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-left: 30px;
+	width: 274px;
+	color: #2f2f2f;
+	font-family: Ubuntu;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+	line-height: 29px;
+}
+
+.feedback{
+	width: 360px;
+	box-sizing: border-box;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+.left-arrow{
+	width: 83px;
+	height: 494px;
+	background-color: #f7f7f7;
+}
+.right-arrow{
+	width: 20px;
+}
+.quote{
+    position: relative;
+    bottom: 12px;
+    left: 53px;
+}
+.ccd{
+	padding-left: 10px;
+	padding-top: 20px;
+	width: 244px;
+	color: #2f2f2f;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.48px;
+	line-height: 26px;
+}
+.amit{
+	padding-left: 73px;
+	padding-top: 45px;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.6px;
+	line-height: 30px;
+}
+.soft{
+	margin-left: 73px;
+	border-bottom: 1px solid  #4e4d4d;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.found-cert{
+	padding-left: 73px;
+}
+.amit-img{
+    position: relative;
+    top: 235px;
+    left: 26px;
+}
+.img-arrow{
+    height: 40px;
+    position: relative;
+    width: 56.516;
+    top: 196px;
+}
+
+
+.certified-user{
+	width: 360px;
+	margin: auto;
+	padding-bottom: 80px;
+}
+.col-user{
+	margin-top: 35px;
+	margin-left: 30px;
+	width: 221px;
+	height: 44px;
+	color: #3b3a3a;
+	font-family: Ubuntu;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: -1.37px;
+	line-height: 43px;
+}
+.col-userbox{
+	margin: auto;
+	margin-top: 43px;
+	width: 221px;
+	height: 396px;
+	border: 1px solid #cbcbcb;
+	background-color: #ffffff;
+}
+.col-left{
+	width: 123px;
+	height: 395px;
+	background-color: #f7f7f7;
+}
+.img-neha{
+    position: relative;
+    top: 45px;
+    left: 50px;
+}
+.neha{
+    margin-top: 90px;
+    /* margin-left: 0px; */
+    position: relative;
+    left: 50px;
+    color: #4e4d4d;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.col-soft{
+	position: relative;
+    left: 50px;
+	color: #4e4d4d;
+	font-family: ubuntu;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid ;
+}
+.col-certification{
+	position: relative;
+    left: 50px;
+	padding-top: 10px;
+	width: 155px;
+	height: 33px;
+	color: #4e4d4d;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+.sec-footer{
+	border-bottom: 1px solid white;
+	background-color: #f2f2f2;
+}
+.pad-follow{
+	padding-top: 20px;
+}
+.col-follow{
+	width: 360px;
+	margin: auto;
+	color: #28313b;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+.img-fb{
+	padding-left: 120px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.img-ggle{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.footer{
+	background-color: #f2f2f2;
+}
+.col-img-ccd{
+	width: 360px;
+	margin: auto;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+.img-5lay{
+	position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+.col-about{
+	width: 360px;
+	box-sizing: border-box;
+	background-color: #f2f2f2;
+	color: #28313b;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	padding-left: 157px;
+	margin: auto;
+}
+.col-home{
+	color: #ff5912;
+}
+.col-prac{
+	padding-left: 148px;
+}
+.col-pay{
+	padding-top: 50px;
+	width: 360px;
+	margin: auto;
+	color: #28313b;
+	background-color: #f2f2f2;
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.col-pay-img{
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+@media screen and (min-width: 600px){
+	.header-mob{
+		display: none;
+	}
+	.navbar-mob{
+		display: none;
+	}
+	.india-mob{
+		display: none;
+	}
+	.exam-info-mob{
+		display: none;
+	}
+	.dsa-info-mob{
+		display: none;
+	}
+	.level-info-mob{
+		display: none;
+	}
+	.col-test-mob{
+		display: none;
+	}
+	.feedback-mob{
+		display: none;
+	}
+	.certified-user-mob{
+		display: none;
+	}
+	.sec-footer{
+		display: none;
+	}
+	.footer{
+		display: none;
+	}
+}
+
+.header-web{
+	border-bottom: .5px solid #e6e8eb;
+	font-family: ubuntu;
+}
+.heading{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.email-web{
+	width: 30px;
+	padding-top: 8px;
+}
+.text-email-web{
+	width: 170px;
+	font-size: 15px;
+	padding-top: 8px;
+}
+.log-in-web{
+	width: 105px;
+	float:right;
+	height: 36px;
+	padding-top: 9px;
+	text-align: center;
+}
+.new{
+	width: 115px;
+	padding-top: 8px;
+	border: 1px solid #ff5912;
+	border-radius: 4px;
+}
+
+.ind-web{
+	padding-top: 110px;
+	background-color: #f7f7f7;
+}
+.sec-header-web{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 25px;
+}
+.img-chef-web{
+    border: 1px solid lightgray;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 15px;
+}
+.img-chef-pad{
+	padding-top: 5px;
+}
+.layers-94{
+	padding-top: 10px;
+    height: 21px;
+}
+.lay-94-img{
+    width: 180px;
+}
+.ds-web{
+    width: 301px;
+    height: 24px;
+    color: #3b3a3a;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: ubuntu;
+}
+.dots-web{
+	position: relative;
+    height: 6px;
+    bottom: 10px;
+    left: 240px;
+}
+.help-web{
+    padding-top: 35px;
+    padding-left: 45px;
+    float: right;
+    color: #34404b;
+    font-family: Ubuntu;
+    font-size: 19px;
+    font-weight: 400;;
+}
+.line-web{
+    position: relative;
+    bottom: 13px;
+}
+.active{
+	color: #ff5912;
+}
+
+.col-ind{
+	width: 960px;
+	height: 54px;
+	padding-bottom: 20px;
+	margin: auto;
+	color: #3b3a3a;
+	font-family: Ubuntu;
+	font-size: 44px;
+	font-weight: 500;
+	line-height: 53px;
+}
+.col-cert-web{
+	width: 960px;
+	margin: auto;
+	padding-bottom: 65px;
+	color: #2f2f2f;
+	font-family: Ubuntu;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0.72px;
+	line-height: 36px;
+}
+.enrol-button{
+	width: 960px;
+	margin: auto;
+}
+.enrol-web{
+	text-align: center;
+	width: 218px;
+	height: 47px;
+	background-color: #fc4111;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 48px;
+}
+.col-chef-sit-web{
+	width: 90%;
+	margin: auto;
+}
+.chef-sit{
+	float: right;
+}
+.img-chef-sit{
+    position: relative;
+    left: 144px;
+}
+
+.info-exm{
+	background-color: #2f2f2f;
+}
+.col-dat{
+	color: #f0f0f0;
+	width: 960px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+}
+.col-exam{
+	color: #f0f0f0;
+	padding-top: 3px;
+	font-family: Ubuntu;
+	font-size: 20px;
+	font-weight: 400;
+}
+.col-mar{
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: Ubuntu;
+	font-size: 24px;
+	font-weight: 400;
+}
+.col-reg{
+    border-left: 1px solid #f0f0f0;
+    padding-left: 50px;
+}
+
+@media screen and (min-width: 600px){
+	.dsa-container-web {
+	    background-color: #f4f6f8;
+	    font-family: ubuntu;
+	}
+	.col-dsa-cert {
+		padding-top: 60px;
+	    color: #3b3a3a;
+		font-family: Ubuntu;
+		font-size: 46px;
+		font-weight: 400;
+		line-height: 43.2px;
+	    text-align: center;
+	    margin: auto;
+	}
+	.col-assess {
+	    width: 960px;
+	    margin: auto;
+		color: #2f2f2f;
+		font-family: Ubuntu;
+		font-size: 20px;
+		font-weight: 400;
+		letter-spacing: 0.6px;
+		line-height: 36px;
+	}
+	.prof {
+	    padding-top: 35px;
+	}
+	.adv {
+	    padding-bottom: 50px;
+	}
+
+	.level-web{
+		padding-bottom: 60px;
+	}
+	.found-web {
+	    width: 960px;
+	    padding-left: 158px;
+	    padding-top: 20px;
+	    box-sizing: border-box;
+	    margin: auto;
+	}
+	.found {
+		color: #3b3a3a;
+		font-family: Ubuntu;
+		font-size: 24px;
+		font-weight: 700;
+		letter-spacing: 0.72px;
+		line-height: 36px;
+	    width: 250px;
+	}
+	.found-color {
+		color: #ff5912;
+		font-family: Ubuntu;
+		font-size: 24px;
+		font-weight: 400;
+		letter-spacing: 0.72px;
+		line-height: 36px;
+	    width: 250px;
+	}
+	.img-line-found-web{
+		position: relative;
+		bottom: 20px;
+	}
+	.pad-this {
+	    padding-top: 35px;
+	}
+	.free-web {
+	    font-family: ubuntu;
+	    padding-top: 15px;
+	    width: 960px;
+	    margin: auto;
+	}
+	.resource-web {
+		color: #3b3a3a;
+		font-family: Ubuntu;
+		font-size: 20px;
+		font-weight: 700;
+		letter-spacing: 0.6px;
+		line-height: 36px;
+	    width: 40%;
+	}
+	.get-web {
+	    width: 60%;
+	}
+	.entire {
+	    color: #2f2f2f;
+	    padding-bottom: 10px;
+		font-family: Ubuntu;
+		font-size: 20px;
+		font-weight: 400;
+		letter-spacing: 0.6px;
+		line-height: 30px;
+	}
+	.sy-web {
+	    color: #ff5912;
+	    padding-bottom: 25px;
+		font-family: Ubuntu;
+		font-size: 20px;
+		font-weight: 400;
+		letter-spacing: 0.6px;
+		line-height: 36px;
+	}
+	.course-web {
+	    padding-top: 73px;
+	}
+	.fee-wid {
+	    width: 50%;
+	    background-color: #fce689;
+	}
+	.fee-web {
+		padding-top: 20px;
+		color: #2f2f2f;
+		font-family: Ubuntu;
+		font-size: 22px;
+		font-weight: 400;
+		letter-spacing: 0.66px;
+		line-height: 36px;
+	    padding-left: 55px;
+	    box-sizing: border-box;
+	}
+	.line-through-web{
+	    position: relative;
+    	bottom: 35px;
+	}
+	.fee-web2 {
+		color: #2f2f2f;
+		font-family: Ubuntu;
+		font-size: 22px;
+		font-weight: 400;
+		letter-spacing: 0.66px;
+		line-height: 36px;
+	    box-sizing: border-box;
+	    padding-left: 55px;
+	    position: relative;
+	    bottom: 26px;
+	}
+	.dis {
+		font-weight: 700;
+	}
+	.dist{
+		padding-left: 40px;
+	}
+	.btn{
+		margin-left: 40%;
+		margin-top: 50px;
+	}
+
+	.col-testimonial-web {
+	    background-color: #f4f6f8;
+	    padding-bottom: 150px;
+	}
+	.col-loreum {
+		font-family: Ubuntu;
+		font-weight: 400;
+		letter-spacing: 0.6px;
+		line-height: 30px;
+	    color: #2f2f2f;
+	    width: 960px;
+	    margin: auto;
+	    font-size: 20px;
+	    padding-top: 20px;
+	    padding-left: 188px;
+	    box-sizing: border-box;
+	    padding-bottom: 35px;
+	}
+	.amit-web {
+	    width: 960px;
+	    margin: auto;
+	}
+	.arr {
+	    width: 10%;
+	    padding-top: 152px;
+	}
+	.cont-div {
+	    width: 80%;
+	    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+		background-color: #ffffff;
+	}
+	.blank {
+	    width: 20%;
+	    height: 377px;
+	    background-color: #f7f7f7;
+	}
+	.img-jha {
+	    position: relative;
+	    left: 50px;
+	    top: 165px;
+	}
+	.quote-web{
+		position: relative;
+	    left: 175px;
+	    bottom: 93px;
+	}
+	.state {
+	    width: 80%;
+	    font-family: ubuntu;
+	}
+	.col-my {
+	    padding-top: 45px;
+	}
+	.hard {
+		color: #2f2f2f;
+		font-family: Ubuntu;
+		font-weight: 400;
+		letter-spacing: 0.6px;
+	    width: 80%;
+	    margin: auto;
+	    font-size: 20px;
+	    padding-bottom: 10px;
+	}
+	.col-jha {
+		color: #2f2f2f;
+		font-family: Ubuntu;
+		font-size: 20px;
+		font-weight: 700;
+		letter-spacing: 0.6px;
+	    padding-top: 30px;
+	}
+	.col-soft-web {
+	    border-bottom: .5px solid lightgrey;
+	}
+	.col-fun {
+	    padding-top: 10px;
+	    padding-bottom: 30px;
+	}
+	.col-dot {
+	    float: right;
+	}
+	.arr-right {
+	    text-align: right;
+	}
+
+	.profile-web{
+		width: 980px;
+		margin: auto;
+	}
+	.left-pad{
+		margin-left: 40px;
+	}
+	.col-userbox{
+		width: 215px;
+	}
+
+	.second-footer-web {
+		margin-top: 110px;
+	    font-family: ubuntu;
+	    background-color: #f4f6f8;
+	    border-bottom: 1px solid white;
+	    padding-top: 25px;
+	    padding-bottom: 30px;
+	}
+	.follow-web {
+		color: #28313b;
+		font-family: Ubuntu;
+		font-size: 16px;
+		font-weight: 400;
+	    text-align: center;
+	    width: 960px;
+	    margin: auto;
+	    font-size: 20px;
+	}
+	.fb-web {
+	    padding-left: 44%;
+	}
+	.fb-icon {
+		padding-top: 20px;
+	    padding-right: 10px;
+	}
+
+	.footer-web {
+	    padding-top: 35px;
+	    padding-bottom: 40px;
+	    background-color: #f4f6f8;
+	    font-family: ubuntu;
+	}
+	.col-footer-web {
+	    width: 90%;
+	    margin: auto;
+	    color: #3b3a3a;
+		font-family: Ubuntu;
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.cc-web {
+	    font-size: 14px;
+	    padding-right: 80px;
+	}
+	.dot-web {
+	    height: 7px;
+	    position: relative;
+	    bottom: 8px;
+	    left: 23px;
+	}
+	.home-web {
+	    padding-right: 40px;
+	}
+	.img-line {
+	    height: 4px;
+	    position: relative;
+	    /* top: 10px; */
+	    bottom: 13px;
+	}
+	.chef-web {
+	    padding-right: 61px;
+	}
+	.pay {
+	    float: right;
+	    padding-right: 14px;
+	}
+	.ccd-web{
+		height: 14px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.second-header-web{
+		display: none;
+	}
+	.header-web{
+		display: none;
+	}
+	.ind-web{
+		display: none;
+	}
+	.info-exm{
+		display: none;
+	}
+	.dsa-container-web{
+		display: none;
+	}
+	.level-web{
+		display: none;
+	}
+	.col-testimonial-web{
+		display: none;
+	}
+	.certified-user-web{
+		display: none;
+	}
+	.profile-web{
+		display: none;
+	}
+	.second-footer-web{
+		display: none;
+	}
+	.footer-web{
+		display: none;
+	}
+}
+
+.dsa-info-mob{
+	    background-color: #f4f6f8;
+}
