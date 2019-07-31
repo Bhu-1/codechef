@@ -118,7 +118,7 @@
 }
 
 .navbar{
-	padding-top: 30px;
+	padding-top: 35px;
 	font-family: ubuntu;
 	width: 360px;
 	margin: auto;
@@ -154,7 +154,7 @@
 	line-height: 43px;
 }
 .certify{
-    padding-top: 45px;
+    padding-top: 30px;
     padding-bottom: 30px;
     margin-left: 30px;
 	width: 258px;
@@ -165,6 +165,9 @@
 	font-weight: 400;
 	letter-spacing: 0.54px;
 	line-height: 36px;
+}
+.button-enroll-mob{
+	margin-bottom: 80px;
 }
 .button-enrol{
     text-align: center;
@@ -181,11 +184,12 @@
 }
 .chef-read{
     position: relative;
-    left: 275px;
+    left: 284px;
 }
 .chef-bench{
     position: relative;
-    left: 161px
+    left: 169px;
+    top: 5px;
 }
 
 .exam-info-mob{
@@ -226,7 +230,7 @@
 	background-color: #f4f6f8; 
 }
 .dsa-info{
-	padding-top: 40px;
+	padding-top: 60px;
 	padding-bottom: 40px;
 	width: 360px;
 	margin: auto;
@@ -265,6 +269,7 @@
 	margin: auto;
 }
 .level{
+	padding-top: 20px;
 	margin-left: 30px;
 	width: 95px;
 	height: 44px;
@@ -313,9 +318,12 @@
 .col-person{
 	width: 285px;
 }
+.col-free-mob{
+	padding-bottom: 20px;
+}
 .col-free{
-	margin-top: 40px;
-	margin-bottom: 20px;
+	margin-top: 60px;
+	margin-bottom: 15px;
 	margin-left: 30px;
 	width: 294px;
 	height: 37px;
@@ -339,7 +347,7 @@
 }
 .col-sy{
 	color:  #ff5912;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 35px;
 }
 .col-cost{
@@ -367,8 +375,8 @@
 	margin-bottom: 30px;
 }
 .col-cost-avail{
-	margin-top: 25px;
-	margin-bottom: 30px;
+	margin-top: -20px;
+	margin-bottom: 20px;
 	height: auto;
 }
 .yellow{
@@ -390,7 +398,7 @@
 	margin: auto;
 }
 .col-test-width{
-	padding-top: 40px;
+	padding-top: 60px;
 	width: 190px;
 }
 .loreum{
@@ -408,7 +416,6 @@
 }
 
 .feedback{
-	width: 360px;
 	box-sizing: border-box;
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
@@ -422,12 +429,12 @@
 }
 .quote{
     position: relative;
-    bottom: 12px;
+    bottom: -12px;
     left: 53px;
 }
 .ccd{
 	padding-left: 10px;
-	padding-top: 20px;
+	padding-top: 30px;
 	width: 244px;
 	color: #2f2f2f;
 	font-family: Ubuntu;
@@ -452,10 +459,11 @@
 }
 .found-cert{
 	padding-left: 73px;
+	font-style: italic;
 }
 .amit-img{
     position: relative;
-    top: 235px;
+    top: 245px;
     left: 26px;
 }
 .img-arrow{
@@ -469,7 +477,7 @@
 .certified-user{
 	width: 360px;
 	margin: auto;
-	padding-bottom: 80px;
+	padding-bottom: 90px;
 }
 .col-user{
 	margin-top: 35px;
@@ -571,7 +579,7 @@
 .col-img-ccd{
 	width: 360px;
 	margin: auto;
-	padding-top: 30px;
+	padding-top: 45px;
 	text-align: center;
 	background-color: #f2f2f2;
 }
@@ -599,7 +607,7 @@
 	padding-left: 148px;
 }
 .col-pay{
-	padding-top: 50px;
+	padding-top: 55px;
 	width: 360px;
 	margin: auto;
 	color: #28313b;
@@ -723,8 +731,8 @@
 }
 .dots-web{
 	position: relative;
-    height: 6px;
-    bottom: 10px;
+    height: 5px;
+    bottom: 7px;
     left: 240px;
 }
 .help-web{
@@ -747,6 +755,7 @@
 .col-ind{
 	width: 960px;
 	height: 54px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 	margin: auto;
 	color: #3b3a3a;
@@ -788,9 +797,15 @@
 .chef-sit{
 	float: right;
 }
+.img-chef-table{
+	position: relative;
+	top: 7px;
+}
+
 .img-chef-sit{
     position: relative;
-    left: 144px;
+    left: 156px;
+    z-index: 1;
 }
 
 .info-exm{
@@ -799,8 +814,8 @@
 .col-dat{
 	color: #f0f0f0;
 	width: 960px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	margin: auto;
 }
 .col-exam{
@@ -828,7 +843,7 @@
 	    font-family: ubuntu;
 	}
 	.col-dsa-cert {
-		padding-top: 60px;
+		padding-top: 120px;
 	    color: #3b3a3a;
 		font-family: Ubuntu;
 		font-size: 46px;
@@ -848,7 +863,7 @@
 		line-height: 36px;
 	}
 	.prof {
-	    padding-top: 35px;
+	    padding-top: 45px;
 	}
 	.adv {
 	    padding-bottom: 50px;
@@ -860,7 +875,7 @@
 	.found-web {
 	    width: 960px;
 	    padding-left: 158px;
-	    padding-top: 20px;
+	    padding-top: 30px;
 	    box-sizing: border-box;
 	    margin: auto;
 	}
@@ -966,7 +981,8 @@
 	}
 	.btn{
 		margin-left: 40%;
-		margin-top: 50px;
+		margin-top: 60px;
+		margin-bottom: 30px;
 	}
 
 	.col-testimonial-web {
@@ -982,10 +998,10 @@
 	    width: 960px;
 	    margin: auto;
 	    font-size: 20px;
-	    padding-top: 20px;
+	    padding-top: 35px;
 	    padding-left: 188px;
 	    box-sizing: border-box;
-	    padding-bottom: 35px;
+	    padding-bottom: 70px;
 	}
 	.amit-web {
 	    width: 960px;
@@ -1194,4 +1210,13 @@
     bottom: 166px;
     left: 328px;
     z-index: -1;
+}
+
+
+@media screen and (max-width: 600px){
+	.empty-box{
+		height: 95px;
+		background-color: #f4f6f8;
+		margin-top: 6px;
+	}
 }
